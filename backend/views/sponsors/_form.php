@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
                                 </div>
                             </div>
                             <div class="col-lg-6" >
-                                <div class="mb-3">
+                                <div class="mb-3 fdfdsf">
                                     <?= $form->field($model, 'images')->fileInput(['accept'=>'image/*','data-plugins'=>'dropify', 'data-height'=>'300', 'style'=>'background-image: url({})']) ?>
                                 </div>
                             </div>
