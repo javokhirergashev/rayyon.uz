@@ -36,6 +36,25 @@
                         <span> Hotels </span>
                     </a>
                 </li>
+                <li>
+                    <a href="<?=\yii\helpers\Url::to(['sponsors/'])?>">
+                        <i class="fe-globe"></i>
+                        <span> Sponsors </span>
+                    </a>
+                </li>
+                    <li>
+                    <a href="<?=\yii\helpers\Url::to(['contacts/'])?>">
+                        <i class="fe-phone-call"></i>
+                        <span> Contacts </span>
+                    </a>
+                </li>
+                </li>
+                <li>
+                    <a href="<?=\yii\helpers\Url::to(['faq/'])?>">
+                        <i class="fe-list"></i>
+                        <span> FAQ </span>
+                    </a>
+                </li>
 
             </ul>
 

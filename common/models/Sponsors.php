@@ -29,7 +29,7 @@ class Sponsors extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'link', 'images'], 'required'],
+            [['name', 'link', ], 'required'],
             [['status'], 'integer'],
             [['name', 'link', 'images'], 'string', 'max' => 255],
         ];
