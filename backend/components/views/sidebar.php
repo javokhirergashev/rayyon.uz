@@ -55,7 +55,12 @@
                         <span> FAQ </span>
                     </a>
                 </li>
-
+                <li>
+                    <a href="<?=\yii\helpers\Url::to(['testimonial/'])?>">
+                        <i class="fe-edit"></i>
+                        <span> Comments </span>
+                    </a>
+                </li>
             </ul>
 
         </div>

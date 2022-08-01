@@ -1,24 +1,23 @@
 <?php
 
-use common\models\StaticFunctions;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel common\models\search\FaqSearch */
+/* @var $searchModel common\models\search\TestimonialSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Faqs';
+$this->title = 'Testimonials';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="faq-index">
+<div class="testimonial-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Faq', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Testimonial', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -30,21 +29,17 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
 //            'id',
+            'name',
+            'email:email',
             [
-                'attribute'=>'question',
+                'attribute'=>'comment',
                 'value'=> function ($model) {
-                    return $model->getQuestion();
+                    return $model->getTitle();
                 },
-                'filter'=>$question,
+                'filter'=>$comment,
             ],
-            [
-                'attribute'=>'answer',
-                'value'=> function ($model) {
-                    return $model->getAnswer();
-                },
-                'filter'=>$answer,
-            ],
-
+            'images',
+            //'status',
             [
                 'class' => ActionColumn::className(),
                 'header' => 'Amallar',
