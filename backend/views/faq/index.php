@@ -11,7 +11,7 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Faqs';
-$this->params['breadcrumbs'][] = $this->getQuestion();
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="faq-index">
 
