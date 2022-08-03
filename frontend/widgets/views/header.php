@@ -6,7 +6,7 @@
             <ul>	<!-- SLIDE  -->
                 <li data-transition="slideleft" data-slotamount="7" data-masterspeed="300" data-thumb="assets/images/slider/slide1_thumb.jpg"  data-saveperformance="off"  data-title="Creative">
                     <!-- MAIN IMAGE -->
-                    <img src="assets/images/slider/slide1.jpg"  alt="slide1"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
+                    <img src="images/slider/slide1.jpg"  alt="slide1"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -44,7 +44,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="slideleft,flyin" data-slotamount="7" data-masterspeed="300" data-thumb="assets/images/slider/slide2_thumb.jpg"  data-saveperformance="off"  data-title="Identity">
                     <!-- MAIN IMAGE -->
-                    <img src="assets/images/slider/slide2.jpg"  alt="slide2"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
+                    <img src="images/slider/slide2.jpg"  alt="slide2"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -82,7 +82,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="slideleft" data-slotamount="7" data-masterspeed="300" data-thumb="assets/images/slider/slide3_thumb.jpg"  data-saveperformance="off"  data-title="Dream">
                     <!-- MAIN IMAGE -->
-                    <img src="assets/images/slider/slide3.jpg"  alt="slide3"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
+                    <img src="images/slider/slide3.jpg"  alt="slide3"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
