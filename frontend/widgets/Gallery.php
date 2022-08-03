@@ -1,12 +1,14 @@
 <?php
+
 namespace app\widgets;
+
 
 use yii\bootstrap4\Widget;
 
-class Skill extends Widget
+class Gallery extends Widget
 {
     public function run()
     {
-        return $this->render("skill");
+        return $this->render("gallery");
     }
 }

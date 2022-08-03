@@ -4,7 +4,7 @@
 /** @var string $content */
 
 use common\widgets\Alert;
-use frontend\assets\AppAsset;
+use app\assets\AppAsset;
 use yii\bootstrap4\Breadcrumbs;
 use yii\bootstrap4\Html;
 use yii\bootstrap4\Nav;
@@ -19,23 +19,15 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
-    <?php $this->head() ?>
+    <title><?= Html::encode($this->title)?></title>
+    <?php $this->head()?>
 </head>
 <body class="d-flex flex-column h-100">
-<?php $this->beginBody() ?>
+<?php $this->beginBody()?>
 
-<?= \app\widgets\Header::widget() ?>
+<?= \app\widgets\Header::widget()?>
 
-<main role="main" class="flex-shrink-0">
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
         <?= $content ?>
-    </div>
-</main>
 
 
 <?php $this->endBody() ?>

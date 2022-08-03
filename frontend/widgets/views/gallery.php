@@ -88,7 +88,7 @@
                     <article class="design photo">
                         <!-- Popup Image -->
                         <a class="cb-img" href="images/portfolio/thumb1.jpg">
-                            <img src="assets/images/portfolio/thumb1.jpg" alt="image" />
+                            <img src="images/portfolio/thumb1.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-camera"></i>
@@ -102,7 +102,7 @@
                     <article class="photo web video">
                         <!-- Fullscreen Project Details -->
                         <a class="full-page" href="#!projects/project-2.html">
-                            <img src="assets/images/portfolio/thumb2.jpg" alt="image" />
+                            <img src="images/portfolio/thumb2.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-film"></i>
@@ -116,7 +116,7 @@
                     <article class="video design mobile">
                         <!-- Fullscreen Project Details -->
                         <a class="full-page" href="#!projects/project-4.html">
-                            <img src="assets/images/portfolio/thumb3.jpg" alt="image" />
+                            <img src="images/portfolio/thumb3.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-camera"></i>
@@ -130,7 +130,7 @@
                     <article class="web photo">
                         <!-- Fullscreen Project Details -->
                         <a class="full-page" href="#!projects/project-3.html">
-                            <img src="assets/images/portfolio/thumb4.jpg" alt="image" />
+                            <img src="images/portfolio/thumb4.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-picture-o"></i>
@@ -144,7 +144,7 @@
                     <article class="mobile video">
                         <!-- Fullscreen Project Details -->
                         <a class="full-page" href="#!projects/project-2.html">
-                            <img src="assets/images/portfolio/thumb5.jpg" alt="image" />
+                            <img src="images/portfolio/thumb5.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-film"></i>
@@ -158,7 +158,7 @@
                     <article class="photo video">
                         <!-- Fullscreen Project Details -->
                         <a class="full-page" href="#!projects/project-3.html">
-                            <img src="assets/images/portfolio/thumb6.jpg" alt="image" />
+                            <img src="images/portfolio/thumb6.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-picture-o"></i>
@@ -172,7 +172,7 @@
                     <article class="web mobile video">
                         <!-- Fullscreen Project Details -->
                         <a class="full-page" href="#!projects/project-1.html">
-                            <img src="assets/images/portfolio/thumb7.jpg" alt="image" />
+                            <img src="images/portfolio/thumb7.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-camera"></i>
@@ -185,8 +185,8 @@
                     </article>
                     <article class="video photo web design">
                         <!-- Popup Image -->
-                        <a class="cb-img" href="assets/images/portfolio/thumb8.jpg">
-                            <img src="assets/images/portfolio/thumb8.jpg" alt="image" />
+                        <a class="cb-img" href="images/portfolio/thumb8.jpg">
+                            <img src="images/portfolio/thumb8.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-camera"></i>
@@ -203,7 +203,7 @@
                             class="cb-youtube"
                             href="http://www.youtube.com/v/fyCewvGXsdA"
                         >
-                            <img src="assets/images/portfolio/thumb9.jpg" alt="image" />
+                            <img src="images/portfolio/thumb9.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-camera"></i>
@@ -220,7 +220,7 @@
                             class="cb-vimeo"
                             href="http://player.vimeo.com/video/18312392"
                         >
-                            <img src="assets/images/portfolio/thumb10.jpg" alt="image" />
+                            <img src="images/portfolio/thumb10.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-picture-o"></i>
@@ -233,8 +233,8 @@
                     </article>
                     <article class="video design mobile">
                         <!-- Popup Image -->
-                        <a class="cb-img" href="assets/images/portfolio/thumb11.jpg">
-                            <img src="assets/images/portfolio/thumb11.jpg" alt="image" />
+                        <a class="cb-img" href="images/portfolio/thumb11.jpg">
+                            <img src="images/portfolio/thumb11.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-camera"></i>
@@ -246,8 +246,8 @@
                         </a>
                     </article>
                     <article class="photo web video">
-                        <a class="cb-img" href="assets/images/portfolio/thumb12.jpg">
-                            <img src="assets/images/portfolio/thumb12.jpg" alt="image" />
+                        <a class="cb-img" href="images/portfolio/thumb12.jpg">
+                            <img src="images/portfolio/thumb12.jpg" alt="image" />
                             <div class="overlay">
                                 <div class="item-info">
                                     <i class="fa fa-film"></i>

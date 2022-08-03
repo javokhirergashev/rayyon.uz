@@ -5,4 +5,14 @@
 $this->title = 'My Yii Application';
 ?>
 
-<?//= \app\frontend\widgets\Header::widget()?>
+<?= \app\widgets\About::widget()?>
+<?= \app\widgets\Counter::widget()?>
+<?= app\widgets\Suggest::widget()?>
+<?= app\widgets\Services::widget()?>
+<?= app\widgets\Process::widget()?>
+<?= app\widgets\Team::widget()?>
+<?= app\widgets\Skill::widget()?>
+<?= app\widgets\Gallery::widget()?>
+
+
+

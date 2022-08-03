@@ -7,22 +7,28 @@ use yii\web\AssetBundle;
 /**
  * Main frontend application asset bundle.
  */
+
+namespace app\assets;
+
+use yii\web\AssetBundle;
+
 class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        "css/plugins.css",
-        "css/bootstrap.min.css",
         "css/style.css",
+        "css/bootstrap.min.css",
+        "css/plugins.css",
         "css/style-responsive.css",
         "rs-plugin/css/settings.css",
         "http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic|Oswald:400,300,700",
     ];
     public $js = [
+        "js/script.js",
         "js/scripts-top.js",
-        "js/scripts-bottom.js",
         "js/bootstrap.min.js",
+        "js/scripts-bottom.js",
         "js/jquery.isotope.min.js",
         "js/jquery.sticky.js",
         "js/jquery.nicescroll.min.js",
@@ -32,7 +38,6 @@ class AppAsset extends AssetBundle
         "js/gmap-settings.js",
         "rs-plugin/js/jquery.themepunch.tools.min.js",
         "rs-plugin/js/jquery.themepunch.revolution.min.js",
-        "js/script.js",
     ];
     public $depends = [
         'yii\web\YiiAsset',
