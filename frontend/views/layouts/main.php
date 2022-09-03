@@ -49,11 +49,34 @@ AppAsset::register($this);
         <?=\app\widgets\Header::widget()?>
         <?= $content ?>
         <?=\app\widgets\Footer::widget()?>
+        <div id="search-modal">
+            <div class="centrize">
+                <div class="v-center">
+                    <div class="container">
+                        <div class="search-form">
+                            <!-- Search Form-->
+                            <form class="searchform">
+                                <div class="input-group">
+                                    <input class="form-control" type="search" data-required="required" name="s" placeholder="Search..." value=""><span class="input-group-btn"><button class="btn btn-color" type="submit"><span><i class="hc-search"></i></span>
+                      </button>
+                      </span>
+                                </div>
+                            </form>
+                            <!-- End Search Form-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a id="close-search-modal" href="#">
+                <i class="hc-close"></i>
+            </a>
+        </div>
         <div class="go-top">
             <a href="#top">
                 <i class="hc-angle-up"></i>
             </a>
         </div>
+    <?=\app\widgets\Footer::widget()?>
     <?php $this->endBody() ?>
 </body>
 </html>
