@@ -28,7 +28,7 @@
                             <h4>Radio Speaking</h4>
                         </div>
                         <div class="service-content">
-                            <p>Expedita minima fugiat ea maiores itaque natus animi officia iure deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti assumenda aperiam.</p>
+                            <p>Expedita minima fugiate ea maiores itaque natus animi officia iure deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti assumenda aperiam.</p>
                         </div>
                     </div>
                 </div>

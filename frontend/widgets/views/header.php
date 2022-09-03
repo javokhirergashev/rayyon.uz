@@ -4,8 +4,8 @@
         <!-- Logo container-->
         <div class="logo">
             <a href="index.html">
-                <img class="logo-light" src="/images/logo_light.png" alt="">
-                <img class="logo-dark" src="/images/logo_dark.png" alt="">
+                <img class="logo-light" src="images/logo_light.png" alt="">
+                <img class="logo-dark" src="images/logo_dark.png" alt="">
             </a>
         </div>
         <!-- End Logo container-->
@@ -20,7 +20,7 @@
                         <ul class="nav product-list">
                             <li>
                                 <div class="product-thumbnail">
-                                    <img src="/images/shop-15.jpg" alt="">
+                                    <img src="images/shop-15.jpg" alt="">
                                 </div>
                                 <div class="product-summary">
                                     <a href="#">Premium Suit Blazer</a><span>$199.99</span>
@@ -28,7 +28,7 @@
                             </li>
                             <li>
                                 <div class="product-thumbnail">
-                                    <img src="/images/shop-16.jpg" alt="">
+                                    <img src="images/shop-16.jpg" alt="">
                                 </div>
                                 <div class="product-summary">
                                     <a href="#">Reiss Vara Tailored Blazer</a><span>$199.99</span>
@@ -367,7 +367,7 @@
     <div class="flexslider" id="home-slider">
         <ul class="slides">
             <li>
-                <img src="/images/bg-image-50.jpg" alt="">
+                <img src="images/bg-image-50.jpg" alt="">
                 <div class="slide-wrap">
                     <div class="slide-content">
                         <div class="container">
@@ -381,7 +381,7 @@
                 </div>
             </li>
             <li>
-                <img src="/images/bg-image-49.jpg" alt="">
+                <img src="images/bg-image-49.jpg" alt="">
                 <div class="slide-wrap light">
                     <div class="slide-content">
                         <div class="container">
@@ -397,7 +397,7 @@
             <li>
                 <div class="slide-video">
                     <video autoplay="" loop="" preload="auto">
-                        <source src="/video/video.mp4" type="video/mp4">
+                        <source src="video/video.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="slide-wrap colored">

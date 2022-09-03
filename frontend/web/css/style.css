@@ -1615,6 +1615,8 @@ section.dark-bg .minimal-tabs > li.active > a:hover {
 }
 #topnav .navigation-menu {
   list-style: none;
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
   font-size: 0;

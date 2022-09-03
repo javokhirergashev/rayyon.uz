@@ -21,7 +21,7 @@
                 </ul>
                 <div class="tab-content text-center">
                     <div class="tab-pane fade active in" id="tab-1">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur assumenda qui facilis magni quod quia quas recusandae cum rem amet, minus natus impedit autem dolores dolor, sed perspiciatis voluptate, est!</p>
+                        <p>Lorem ipsum dolorr sit amet, consectetur adipisicing elit. Tenetur assumenda qui facilis magni quod quia quas recusandae cum rem amet, minus natus impedit autem dolores dolor, sed perspiciatis voluptate, est!</p>
                     </div>
                     <div class="tab-pane fade" id="tab-2">
                         <p>Quasi ad atque quae. Veniam dolore illum excepturi est veritatis quod ex nisi doloribus commodi! Natus error, ad vel deserunt nobis quis. Voluptatem accusamus, deserunt rem corporis quod voluptatibus nisi.</p>
