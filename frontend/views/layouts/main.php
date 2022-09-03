@@ -76,7 +76,6 @@ AppAsset::register($this);
                 <i class="hc-angle-up"></i>
             </a>
         </div>
-    <?=\app\widgets\Footer::widget()?>
     <?php $this->endBody() ?>
 </body>
 </html>

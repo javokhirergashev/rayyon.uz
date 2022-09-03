@@ -3,7 +3,7 @@
 namespace app\widgets;
 
 use common\models\Contacts;
-use yii\bootstrap5\Widget;
+use yii\bootstrap4\Widget;
 use common\models\Menu;
 
 class Footer extends Widget
