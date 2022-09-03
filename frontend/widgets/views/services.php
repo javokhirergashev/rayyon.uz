@@ -1,100 +1,60 @@
-<section id="services" class="section-content bg2">
+<section class="services section-padding">
     <div class="container">
         <div class="row">
-            <!-- Section title -->
-            <div class="section-title item_bottom text-center">
-                <div>
-                    <span class="fa fa-cubes fa-2x"></span>
-                </div>
-                <h1>Our <span>Services</span></h1>
+
+            <div class="section-head text-center col-sm-12">
+                <h6>Our Services</h6>
+                <h4>Our <span>Awesome</span> Featurse</h4>
             </div>
-            <!-- End Section title -->
-        </div>
-        <div class="row services">
-            <!-- Service -->
-            <div class="col-md-4 col-sm-6 services-box item_left">
-                <h4>Customer Support</h4>
-                <div class="services-box-icon">
-                    <i class="fa fa-smile-o fa-3x"></i>
-                </div>
-                <div class="service-box-info">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                        rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                    </p>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="item mb-30">
+                    <span class="icon icon-basic-book-pencil"></span>
+                    <h6>Creative Design</h6>
+                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
                 </div>
             </div>
-            <!-- End Service -->
-            <!-- Service -->
-            <div class="col-md-4 col-sm-6 services-box item_bottom">
-                <h4>Web Design</h4>
-                <div class="services-box-icon">
-                    <i class="fa fa-html5 fa-3x"></i>
-                </div>
-                <div class="service-box-info">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                        rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                    </p>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="item mb-30">
+                    <span class="icon icon-basic-pencil-ruler"></span>
+                    <h6>User Experience</h6>
+                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
                 </div>
             </div>
-            <!-- End Service -->
-            <!-- Service -->
-            <div class="col-md-4 col-sm-6 services-box item_right">
-                <h4>Wordpress Themes</h4>
-                <div class="services-box-icon">
-                    <i class="fa fa-link fa-3x"></i>
-                </div>
-                <div class="service-box-info">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                        rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                    </p>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="item mb-30">
+                    <span class="icon icon-basic-anchor"></span>
+                    <h6>Customizability</h6>
+                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
                 </div>
             </div>
-            <!-- End Service -->
-            <!-- Service -->
-            <div class="col-md-4 col-sm-6 services-box item_left">
-                <h4>Logo Design</h4>
-                <div class="services-box-icon">
-                    <i class="fa fa-leaf fa-3x"></i>
-                </div>
-                <div class="service-box-info">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                        rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                    </p>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="item mb-md50">
+                    <span class="icon icon-basic-picture"></span>
+                    <h6>Retina Ready</h6>
+                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
                 </div>
             </div>
-            <!-- End Service -->
-            <!-- Service -->
-            <div class="col-md-4 col-sm-6 services-box item_bottom">
-                <h4>Video Editing</h4>
-                <div class="services-box-icon">
-                    <i class="fa fa-film fa-3x"></i>
-                </div>
-                <div class="service-box-info">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                        rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                    </p>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="item mb-sm50">
+                    <span class="icon icon-basic-ipod"></span>
+                    <h6>Fully Responsive</h6>
+                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
                 </div>
             </div>
-            <!-- End Service -->
-            <!-- Service -->
-            <div class="col-md-4 col-sm-6 services-box item_right">
-                <h4>Photography</h4>
-                <div class="services-box-icon">
-                    <i class="fa fa-camera fa-3x"></i>
-                </div>
-                <div class="service-box-info">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                        rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                    </p>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="item">
+                    <span class="icon icon-basic-gear"></span>
+                    <h6>Custom Support</h6>
+                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
                 </div>
             </div>
-            <!-- End Service -->
+
         </div>
     </div>
 </section>

@@ -21,15 +21,34 @@ AppAsset::register($this);
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title)?></title>
     <?php $this->head()?>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-144098545-1');
+    </script>
 </head>
 <body class="d-flex flex-column h-100">
-<?php $this->beginBody()?>
+<!-- Preloader -->
+<div class="preloader-bg"></div>
+<div id="preloader">
+    <div id="preloader-status">
+        <div class="preloader-position loader"> <span></span> </div>
+    </div>
+</div>
+<!-- Progress scroll totop -->
+<div class="progress-wrap cursor-pointer">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
 
-<?= \app\widgets\Header::widget()?>
-
-        <?= $content ?>
-
-
+<?=\app\widgets\Header::widget()?>
+<?= $content ?>
+<?=\app\widgets\Footer::widget()?>
 <?php $this->endBody() ?>
 </body>
 </html>

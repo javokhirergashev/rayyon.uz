@@ -1,40 +1,45 @@
-<div id="number" class="fullwidth-section parallax">
-    <div class="parallax-overlay">
+<!-- Numbers -->
+<section class="numbers">
+    <div class="section-padding bg-img bg-fixed back-position-center" data-background="frontend-files/img/slider/15.jpg" data-overlay-dark="6">
         <div class="container">
-            <div class="row number-counters white item_bottom">
-                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="counters-item">
-                        <i class="fa fa-group fa-3x"></i>
-                        <strong data-to="349">0</strong>
-                        <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Happy Clients</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="item text-center"> <img src="/frontend-files/img/arrow1.png" class="tobotm" alt=""> <span class="icon">
+                                <i class="front flaticon-air-freight"></i>
+                                <i class="back flaticon-air-freight"></i>
+                            </span>
+                        <h3 class="count">600</h3>
+                        <h6><?=Yii::t("app", "flight")?></h6>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="counters-item">
-                        <i class="fa fa-trophy fa-3x"></i>
-                        <strong data-to="96">0</strong>
-                        <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Awards Won</p>
+                <div class="col-md-3">
+                    <div class="item text-center"> <img src="/frontend-files/img/arrow1.png" alt=""> <span class="icon">
+                                <i class="font flaticon-house"></i>
+                                <i class="back flaticon-house"></i>
+                            </span>
+                        <h3 class="count">250</h3>
+                        <h6><?=Yii::t("app", "amazing")?></h6>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="counters-item">
-                        <i class="fa fa-thumbs-up fa-3x"></i>
-                        <strong data-to="1020">0</strong>
-                        <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Projects Done</p>
+                <div class="col-md-3">
+                    <div class="item text-center"> <img src="/frontend-files/img/arrow1.png" class="tobotm" alt=""> <span class="icon">
+                                <i class="front flaticon-ship"></i>
+                                <i class="back flaticon-ship"></i>
+                            </span>
+                        <h3 class="count">100</h3>
+                        <h6><?=Yii::t("app", "cruises")?></h6>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="counters-item">
-                        <i class="fa fa-coffee fa-3x"></i>
-                        <strong data-to="6454">0</strong>
-                        <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Cups Coffee</p>
+                <div class="col-md-3">
+                    <div class="item text-center"> <span class="icon">
+                                <i class="front flaticon-tag"></i>
+                                <i class="back flaticon-tag"></i>
+                            </span>
+                        <h3 class="count">100</h3>
+                        <h6><?=Yii::t("app", "ticket")?></h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>

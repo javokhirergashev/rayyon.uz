@@ -1,203 +1,131 @@
-<header id="home">
-    <!-- START REVOLUTION SLIDER 4.6.0 fullscreen mode -->
-
-    <div class="tp-banner-container">
-        <div class="tp-banner" >
-            <ul>	<!-- SLIDE  -->
-                <li data-transition="slideleft" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider/slide1_thumb.jpg"  data-saveperformance="off"  data-title="Creative">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/slider/slide1.jpg"  alt="slide1"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
-                    <!-- LAYERS -->
-
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme box-title"
-                         data-x="center" data-hoffset="0"
-                         data-y="center" data-voffset="-20"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">We Are Creative
-                    </div>
-
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption sub-heading tp-fade tp-resizeme"
-                         data-x="center" data-hoffset="0"
-                         data-y="center" data-voffset="60"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-
-                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Design . Logo . SEO
-                    </div>
-
-                </li>
-                <!-- SLIDE  -->
-                <li data-transition="slideleft,flyin" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider/slide2_thumb.jpg"  data-saveperformance="off"  data-title="Identity">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/slider/slide2.jpg"  alt="slide2"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
-                    <!-- LAYERS -->
-
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme box-title"
-                         data-x="center" data-hoffset="0"
-                         data-y="center" data-voffset="-20"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-
-                         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">We Are Identity
-                    </div>
-
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption sub-heading tp-fade tp-resizeme"
-                         data-x="center" data-hoffset="0"
-                         data-y="center" data-voffset="60"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-
-                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Best Digital Agency
-                    </div>
-                </li>
-                <!-- SLIDE  -->
-                <li data-transition="slideleft" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider/slide3_thumb.jpg"  data-saveperformance="off"  data-title="Dream">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/slider/slide3.jpg"  alt="slide3"  data-bgposition="center top" data-kenburns="on" data-duration="15000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="150" data-bgpositionend="center top">
-                    <!-- LAYERS -->
-
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme box-title"
-                         data-x="center" data-hoffset="0"
-                         data-y="center" data-voffset="-20"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-
-                         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">We Make Your Dream
-                    </div>
-
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption sub-heading tp-fade tp-resizeme"
-                         data-x="center" data-hoffset="0"
-                         data-y="center" data-voffset="60"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">We Make Future
-                    </div>
-
-                </li>
-            </ul>
-            <div class="tp-bannertimer"></div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper navbar-brand valign">
+            <a href="index2.html">
+                <div class="logo"> <img src="/img/logo-light.png" class="logo-img" alt=""> </div>
+            </a>
         </div>
-        <script type="text/javascript">
-            jQuery(document).ready(function() {
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <?php if (!empty($models)) :?>
+                    <?php foreach ($models as $model): ?>
+                        <li class="nav-item"><a class="nav-link" href="<?=$model->link?>"><?=$model['name_'.Yii::$app->language];?></a></li>
+                    <?php endforeach; ?>
+                <?php endif; ?>
 
-                jQuery('.tp-banner').show().revolution(
-                    {
-                        dottedOverlay:"none",
-                        delay:9000,
-                        startwidth:1200,
-                        startheight:350,
-                        hideThumbs:200,
-
-                        thumbWidth:100,
-                        thumbHeight:50,
-                        thumbAmount:3,
+                <img src="/img/sun.png" id="sun" alt="">
+                <a id="signup" href="<?=\yii\helpers\Url::to(['admin/'])?>"><i id="signup" class="uil uil-signout"></i></a>
+                <li class="nav-item dropdown" style="margin-left: 50px"> <span class="nav-link"> <?=Yii::$app->language?></span>
+                    <ul class="dropdown-menu last">
+                        <?php
+                        foreach (Yii::$app->params['language'] as $key => $value){
+                            echo "<li class='dropdown-item'><a href='".\yii\helpers\Url::to(['site/ozgar',"til"=>$key])."'>".$value."</a></li>";
+                        }
+                        ?>
 
 
-                        navigationType:"none",
-                        navigationArrows:"solo",
-                        navigationStyle:"preview4",
 
-                        touchenabled:"on",
-                        onHoverStop:"on",
-                        nextSlideOnWindowFocus:"off",
+                    </ul>
+                </li>
 
-                        swipe_velocity: 0.7,
-                        swipe_min_touches: 1,
-                        swipe_max_touches: 1,
-                        drag_block_vertical: false,
-
-                        keyboardNavigation:"off",
-
-                        navigationHAlign:"center",
-                        navigationVAlign:"bottom",
-                        navigationHOffset:0,
-                        navigationVOffset:20,
-
-                        soloArrowLeftHalign:"left",
-                        soloArrowLeftValign:"center",
-                        soloArrowLeftHOffset:20,
-                        soloArrowLeftVOffset:0,
-
-                        soloArrowRightHalign:"right",
-                        soloArrowRightValign:"center",
-                        soloArrowRightHOffset:20,
-                        soloArrowRightVOffset:0,
-
-                        shadow:0,
-                        fullWidth:"off",
-                        fullScreen:"on",
-
-                        spinner:"spinner0",
-
-                        stopLoop:"off",
-                        stopAfterLoops:-1,
-                        stopAtSlide:-1,
-
-                        shuffle:"off",
-                        forceFullWidth:"on",
-                        fullScreenAlignForce:"off",
-                        minFullScreenHeight:"",
-
-                        hideThumbsOnMobile:"off",
-                        hideNavDelayOnMobile:1500,
-                        hideBulletsOnMobile:"off",
-                        hideArrowsOnMobile:"off",
-                        hideThumbsUnderResolution:0,
-
-                        fullScreenOffsetContainer: "",
-                        fullScreenOffset: "",
-                        hideSliderAtLimit:0,
-                        hideCaptionAtLimit:0,
-                        hideAllCaptionAtLilmit:0,
-                        startWithSlide:0
-                    });
-
-            });	/*ready*/
-
-        </script>
+            </ul>
+        </div>
     </div>
-    <!-- END REVOLUTION SLIDER -->
+</nav>
+<!-- Slider -->
+<header class="header slider-fade">
+    <div class="owl-carousel owl-theme">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="/frontend-files/img/slider/1.jpg">
+            <div class="v-middle caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h4><?=Yii::t("app", "letsgo")?></h4>
+                            <h1><?=Yii::t("app", "world1")?> <span><?=Yii::t("app", "travel1")?></span> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="/frontend-files/img/slider/2.jpg">
+            <div class="v-middle caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h4><?=Yii::t("app", "letsgo")?></h4>
+                            <h1><?=Yii::t("app", "roma")?> <span><?=Yii::t("app", "travel")?></span> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="/frontend-files/img/slider/3.jpg">
+            <div class="v-middle caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h4><?=Yii::t("app", "letsgo")?></h4>
+                            <h1><span><?=Yii::t("app", "discover")?> </span><?=Yii::t("app", "world")?> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
+<!-- Tour Search -->
+
+
+<!-- Tour Search -->
+<div class="booking-wrapper">
+    <div class="container">
+        <div class="tour-inner clearfix form-inline justify-content-center">
+            <form action="https://duruthemes.com/demo/html/travol/tours.html" class="form1 clearfix">
+                <div class="col1 c1">
+                    <div class="input2_wrapper">
+                        <label>Where to?</label>
+                        <div class="input2_inner">
+                            <input type="text" class="form-control input" placeholder="Where to?">
+                        </div>
+                    </div>
+                </div>
+                <div class="col1 c2">
+                    <div class="select1_wrapper">
+                        <label>Destinations</label>
+                        <div class="select1_inner">
+                            <select class="select2 select" style="width: 100%">
+                                <option value="0">Destinations</option>
+                                <option value="1">Greece</option>
+                                <option value="2">London</option>
+                                <option value="3">Maldives</option>
+                                <option value="4">Paris</option>
+                                <option value="5">Rome</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col1 c4">
+                    <div class="select1_wrapper">
+                        <label>Duration</label>
+                        <div class="select1_inner">
+                            <select class="select2 select" style="width: 100%">
+                                <option value="0">Duration</option>
+                                <option value="1">1 Day Tour</option>
+                                <option value="2">2-4 Days Tour</option>
+                                <option value="3">5-7 Days Tour</option>
+                                <option value="4">7+ Days Tour</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col1 c5">
+                    <button type="submit" class="btn-form1-submit"><i class="ti-search"></i> Find Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
