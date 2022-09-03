@@ -10,6 +10,7 @@ $this->title = 'Rayyon';
 <?=\app\widgets\Counter::widget()?>
 <?=\app\widgets\Tour::widget()?>
 <?//=\app\widgets\Popular::widget()?>
+<?=\app\widgets\Hotel::widget()?>
 <?=\app\widgets\Banner::widget()?>
 <?=\app\widgets\Contact::widget()?>
 <?//=\app\widgets\Blog::widget()?>
