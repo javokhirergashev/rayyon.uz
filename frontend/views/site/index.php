@@ -14,7 +14,7 @@ $this->title = 'Rayyon';
 <?=\app\widgets\Contact::widget()?>
 <?//=\app\widgets\Blog::widget()?>
 <?//=\app\widgets\Testimonial::widget()?>
-<?//=\app\widgets\Partners::widget()?>
+<?=\app\widgets\Partners::widget()?>
 
 
 
