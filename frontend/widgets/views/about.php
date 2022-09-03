@@ -1,52 +1,33 @@
-<!-- About -->
-<section class="about cover section-padding">
-    <div class="container">
+<section>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
-                <div class="section-subtitle"><?=Yii::t("app", "best")?></div>
-                <div class="section-title"><?=Yii::t("app", "aboutDis")?> <span><?=Yii::t("app", "aboutg")?></span> </div>
-                <p><?=Yii::t("app", "aboutp1")?></p>
-                <p><?=Yii::t("app", "aboutp2")?></p>
-                <ul class="list-unstyled about-list mb-30">
-                    <li>
-                        <div class="about-list-icon"> <span class="ti-check"></span> </div>
-                        <div class="about-list-text">
-                            <p>20 <?=Yii::t("app", "experience")?></p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="about-list-icon"> <span class="ti-check"></span> </div>
-                        <div class="about-list-text">
-                            <p>150+ <?=Yii::t("app", "tourdes")?></p>
-                        </div>
-                    </li>
-                </ul>
-                <!-- Info -->
-                <div class="phone-call mb-30">
-                    <div class="icon"><span class="flaticon-phone-call"></span></div>
-                    <div class="text">
-                        <p><?=Yii::t("app", "information")?></p> <a href="tel:855-333-4444">855 333 4444</a>
-                    </div>
+            <div class="col-md-6 col-sm-4 img-side img-right">
+                <div class="img-holder">
+                    <img class="bg-img" src="images/bg-image-32.jpg" alt="">
                 </div>
             </div>
-            <div class="col-md-5 offset-md-1 animate-box" data-animate-effect="fadeInUp">
-                <div class="img-exp">
-                    <div class="about-img">
-                        <div class="img"> <img src="/img/about.jpg" class="img-fluid" alt=""> </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-7 col-md-5">
+            <div class="dylan-tabs">
+                <ul class="nav nav-tabs icon-tabs center-tabs cols-3">
+                    <li class="active"><a href="#tab-1" data-toggle="tab"><i class="hc-box1"></i><span>Planning</span></a>
+                    </li>
+                    <li><a href="#tab-2" data-toggle="tab"><i class="hc-display1"></i><span>Design</span></a>
+                    </li>
+                    <li><a href="#tab-3" data-toggle="tab"><i class="hc-ball"></i><span>Development</span></a>
+                    </li>
+                </ul>
+                <div class="tab-content text-center">
+                    <div class="tab-pane fade active in" id="tab-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur assumenda qui facilis magni quod quia quas recusandae cum rem amet, minus natus impedit autem dolores dolor, sed perspiciatis voluptate, est!</p>
                     </div>
-                    <div id="circle">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-                                <defs>
-                                    <path id="circlePath" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
-                                </defs>
-                            <circle cx="150" cy="100" r="75" fill="none" />
-                            <g>
-                                <use xlink:href="#circlePath" fill="none" />
-                                <text fill="#0f2454">
-                                    <textPath xlink:href="#circlePath"> . planeta travel  . planeta travel </textPath>
-                                </text>
-                            </g>
-                            </svg>
+                    <div class="tab-pane fade" id="tab-2">
+                        <p>Quasi ad atque quae. Veniam dolore illum excepturi est veritatis quod ex nisi doloribus commodi! Natus error, ad vel deserunt nobis quis. Voluptatem accusamus, deserunt rem corporis quod voluptatibus nisi.</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab-3">
+                        <p>Architecto vitae quae placeat eum quidem sint voluptatem totam, soluta neque est itaque mollitia, doloribus maxime sit dignissimos omnis, inventore a ex. Ipsam distinctio aliquam assumenda, ut iste beatae.</p>
                     </div>
                 </div>
             </div>

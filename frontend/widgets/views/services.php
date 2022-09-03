@@ -1,60 +1,48 @@
-<section class="services section-padding">
-    <div class="container">
-        <div class="row">
-
-            <div class="section-head text-center col-sm-12">
-                <h6>Our Services</h6>
-                <h4>Our <span>Awesome</span> Featurse</h4>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="item mb-30">
-                    <span class="icon icon-basic-book-pencil"></span>
-                    <h6>Creative Design</h6>
-                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
+<section class="p-0">
+    <div class="container-fluid">
+        <div class="services">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service">
+                        <div class="service-icon"><i class="hc-cash"></i>
+                            <h4>Management</h4>
+                        </div>
+                        <div class="service-content">
+                            <p>Eligendi dolorem repellat, officiis nobis. Itaque repudiandae, eligendi totam nihil aliquid, vitae quos cum minus nulla autem, in? Temporibus, accusantium.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service">
+                        <div class="service-icon"><i class="hc-shoe"></i>
+                            <h4>Fashion Consulting</h4>
+                        </div>
+                        <div class="service-content">
+                            <p>Itaque omnis tenetur placeat facere mollitia molestias, doloribus pariatur sapiente qui hic laboriosam aut accusamus repellat ab perspiciatis commodi voluptates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service">
+                        <div class="service-icon"><i class="hc-radio"></i>
+                            <h4>Radio Speaking</h4>
+                        </div>
+                        <div class="service-content">
+                            <p>Expedita minima fugiat ea maiores itaque natus animi officia iure deleniti unde, facilis velit optio! Culpa quis neque tempora deleniti assumenda aperiam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service">
+                        <div class="service-icon"><i class="hc-camera"></i>
+                            <h4>Shooting</h4>
+                        </div>
+                        <div class="service-content">
+                            <p>Eligendi dolorem repellat, officiis nobis. Itaque repudiandae, eligendi totam nihil aliquid, vitae quos. Laborum, asperiores. Temporibus beatae laudantium dolor.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="item mb-30">
-                    <span class="icon icon-basic-pencil-ruler"></span>
-                    <h6>User Experience</h6>
-                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="item mb-30">
-                    <span class="icon icon-basic-anchor"></span>
-                    <h6>Customizability</h6>
-                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="item mb-md50">
-                    <span class="icon icon-basic-picture"></span>
-                    <h6>Retina Ready</h6>
-                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="item mb-sm50">
-                    <span class="icon icon-basic-ipod"></span>
-                    <h6>Fully Responsive</h6>
-                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="item">
-                    <span class="icon icon-basic-gear"></span>
-                    <h6>Custom Support</h6>
-                    <p>A decade ago, we founded Melinda with the goal of creating meaningful digital experiences.</p>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
