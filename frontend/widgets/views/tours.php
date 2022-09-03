@@ -1,51 +1,77 @@
-<section class="tours3 section-padding bg-lightnav">
+<section class="grey-bg">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-subtitle"><span><?=Yii::t("app", "choose")?></span></div>
-                <div class="section-title"><?=Yii::t("app", "popular")?> <span><?=Yii::t("app", "poptours")?></span></div>
-            </div>
+        <div class="title center">
+            <h2>Latest Posts.</h2>
+            <h4>Checkout our latest blogs and news.</h4>
         </div>
         <div class="row">
-            <?php if (!empty($models)) :?>
-                <?php foreach ($models as $model) : ?>
-                    <?php
-                    $image = \app\models\StaticFunctions::getImage('tours',$model->id,$model->images);
-                    if (is_file($image)){
-                        $image = "images/no_photo.png";
-                    }
-                    ?>
-                    <div class="col-md-4">
-                        <div class="square-flip">
-                            <div class="square bg-img" data-background="<?=$image?>"> <span class="category"><a href="#0"><?=$model['title_'.Yii::$app->language];?></a></span>
-                                <div class="square-container d-flex align-items-end justify-content-end">
-                                    <div class="box-title">
-                                        <h4><?=$model['title_'.Yii::$app->language];?></h4>
-                                        <h6><?=$model->price?></h6>
-                                    </div>
-                                </div>
-                                <div class="flip-overlay"></div>
-                            </div>
-                            <div class="square2 bg-whitee" id="backwhite">
-                                <div class="square-container2">
-                                    <h4><?=$model['title_'.Yii::$app->language];?></h4>
-                                    <h6><?=$model->price?></h6>
-                                    <p><?=$model['description_'.Yii::$app->language];?></p>
-                                    <div class="row tour-list mb-30">
-                                        <div class="col col-md-6">
-                                            <ul>
-                                                <li><i class="ti-time"></i><?=$model->period?>;</li>
-                                                <li><i class="ti-user"></i> 10+</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="btn-line"><a href="<?=\yii\helpers\Url::to(["toursview/view", "id"=>$model->id])?>"><?=Yii::t("app", "more")?></a></div>
-                                </div>
-                            </div>
+            <div class="owl-carousel" data-options="{&quot;items&quot;: 3, &quot;margin&quot;: 50, &quot;autoplay&quot;: true, &quot;dots&quot;: true}">
+                <div class="card-post">
+                    <div class="post-media">
+                        <a href="#">
+                            <img src="images/blog-4.jpg" alt="Minimum Viable DevOps">
+                        </a>
+                    </div>
+                    <div class="post-body"><span class="post-time">August 12, 2016</span>
+                        <h3><a href="#">Minimum Viable DevOps</a></h3>
+                        <p class="serif">Inspired Design. Nesciunt commodi fuga rem doloremque. Curabitur congue, dolor asperiores egestas varius, felis mi [..]</p>
+                        <div class="post-info upper"><a class="small-link black-text" href="#"><span>Read More</span><i class="hc-arrow-right"></i></a>
                         </div>
                     </div>
-                <?php endforeach;?>
-            <?php endif; ?>
+                </div>
+                <div class="card-post">
+                    <div class="post-media">
+                        <a href="#">
+                            <img src="images/blog-1.jpg" alt="How to Get What You Want">
+                        </a>
+                    </div>
+                    <div class="post-body"><span class="post-time">August 12, 2016</span>
+                        <h3><a href="#">How to Get What You Want</a></h3>
+                        <p class="serif">Inspired Design. Nesciunt commodi fuga rem doloremque. Curabitur congue, dolor asperiores egestas varius, felis mi [..]</p>
+                        <div class="post-info upper"><a class="small-link black-text" href="#"><span>Read More</span><i class="hc-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-post">
+                    <div class="post-media">
+                        <a href="#">
+                            <img src="images/blog-5.jpg" alt="Answering Everything">
+                        </a>
+                    </div>
+                    <div class="post-body"><span class="post-time">August 12, 2016</span>
+                        <h3><a href="#">Answering Everything</a></h3>
+                        <p class="serif">Inspired Design. Nesciunt commodi fuga rem doloremque. Curabitur congue, dolor asperiores egestas varius, felis mi [..]</p>
+                        <div class="post-info upper"><a class="small-link black-text" href="#"><span>Read More</span><i class="hc-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-post">
+                    <div class="post-media">
+                        <a href="#">
+                            <img src="images/blog-2.jpg" alt="Startup Rules">
+                        </a>
+                    </div>
+                    <div class="post-body"><span class="post-time">August 12, 2016</span>
+                        <h3><a href="#">Startup Rules</a></h3>
+                        <p class="serif">Inspired Design. Nesciunt commodi fuga rem doloremque. Curabitur congue, dolor asperiores egestas varius, felis mi [..]</p>
+                        <div class="post-info upper"><a class="small-link black-text" href="#"><span>Read More</span><i class="hc-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-post">
+                    <div class="post-media">
+                        <a href="#">
+                            <img src="images/blog-3.jpg" alt="Email Can Wait">
+                        </a>
+                    </div>
+                    <div class="post-body"><span class="post-time">August 11, 2016</span>
+                        <h3><a href="#">Email Can Wait</a></h3>
+                        <p class="serif">Inspired Design. Nesciunt commodi fuga rem doloremque. Curabitur congue, dolor asperiores egestas varius, felis mi [..]</p>
+                        <div class="post-info upper"><a class="small-link black-text" href="#"><span>Read More</span><i class="hc-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

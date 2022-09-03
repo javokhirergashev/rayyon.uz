@@ -1,18 +1,14 @@
-<!-- Banner Tour Video -->
-<section class="dynamic-video-wrapper" data-overlay-dark="3">
-    <video width="100%" height="100%" autoplay="autoplay" muted preload="auto" loop="loop">
-        <source src="/frontend-files/img/travel-video.mp4" type="video/mp4">
-    </video>
-    <div class="wrap-content v-middle">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
+<section class="parallax-bg simple-parallax">
+    <div class="row-parallax-bg">
+        <div class="parallax-wrapper" style="transform: translate3d(0px, -85.2375px, 0px);">
+            <div class="parallax-bg-element" style="background-image: url(&quot;images/bg-image-67.jpg&quot;);">
 
-                    <h1><?=Yii::t("app", "banner_info")?></h1>
-                    <!--                    <h4><i class="ti-location-pin"></i> Maldives &nbsp;&nbsp; <i class="ti-timer"></i> 4 Days + 3 Nights</h4>-->
-
-                </div>
             </div>
+        </div>
+        <div class="parallax-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="play-button" data-src="https://www.youtube.com/embed/r44RKWyfcFw?autoplay=1"><i class="hc-play"></i>
         </div>
     </div>
 </section>
