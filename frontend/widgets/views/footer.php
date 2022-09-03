@@ -1,118 +1,101 @@
-<!-- Footer -->
-<footer class="footer clearfix">
+<footer id="footer-widgets">
     <div class="container">
-        <!-- First footer -->
-        <div class="first-footer">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="links dark footer-contact-links">
-                        <div class="footer-contact-links-wrapper">
-                            <div class="footer-contact-link-wrapper">
-                                <div class="image-wrapper footer-contact-link-icon">
-                                    <div class="icon-footer"> <i class="flaticon-phone-call"></i> </div>
-                                </div>
-                                <div class="footer-contact-link-content">
-                                    <h6><?=Yii::t("app", "callus")?></h6>
-                                    <?php if (!empty($models)) :?>
-                                        <?php foreach ($models as $model): ?>
-                                            <p><?=$model->first_phone?></p>
-                                        <?php endforeach; ?>
-                                    <?php endif; ?>
-
-                                </div>
-                            </div>
-                            <div class="footer-contact-links-divider"></div>
-                            <div class="footer-contact-link-wrapper">
-                                <div class="image-wrapper footer-contact-link-icon">
-                                    <div class="icon-footer"> <i class="flaticon-message"></i> </div>
-                                </div>
-                                <div class="footer-contact-link-content">
-                                    <h6><?=Yii::t("app", "writeus")?></h6>
-                                    <?php if (!empty($models)) :?>
-                                        <?php foreach ($models as $model): ?>
-                                            <p><?=$model->email?></p>
-                                        <?php endforeach; ?>
-                                    <?php endif; ?>
-                                </div>
-                            </div>
-                            <div class="footer-contact-links-divider"></div>
-                            <div class="footer-contact-link-wrapper">
-                                <div class="image-wrapper footer-contact-link-icon">
-                                    <div class="icon-footer"> <i class="flaticon-placeholder"></i> </div>
-                                </div>
-                                <div class="footer-contact-link-content">
-                                    <h6><?=Yii::t("app", "location")?></h6>
-                                    <?php if (!empty($models)) :?>
-                                        <?php foreach ($models as $model): ?>
-                                            <p><?=$model->email?></p>
-                                        <?php endforeach; ?>
-                                    <?php endif; ?>
-                                </div>
+        <div class="row">
+            <div class="col-md-7 ov-h">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="widget clearfix">
+                            <h5>About Dylan</h5>
+                            <div class="textwidget">
+                                <p>
+                                    <span>350 5th Ave</span>
+                                    <br><span>New York, NY 10118</span>
+                                    <br><span>hello@dylan.co</span>
+                                </p>
+                                <h5>+1 301-736-4321</h5>
+                                <p>
+                                    <a class="mt-15 btn btn-color btn-sm" href="#">Contact Us</a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Second footer -->
-        <div class="second-footer">
-            <div class="row">
-                <!-- about & social icons -->
-                <div class="col-md-4 widget-area">
-                    <div class="widget clearfix">
-                        <div class="footer-logo"> <img class="img-fluid" src="frontend-files/img/logo-light.png" alt=""> </div>
-                        <div class="widget-text">
-                            <p><?=Yii::t("app", "infolinks")?></p>
-                            <div class="social-icons">
-                                <ul class="list-inline">
-                                    <?php if (!empty($models)): ?>
-                                        <?php foreach ($models as $model): ?>
-                                            <li><a href="<?=$model->instagram_link?>"><i class="ti-instagram"></i></a></li>
-                                            <li><a href="<?=$model->tweetter_link?>"><i class="ti-twitter"></i></a></li>
-                                            <li><a href="<?=$model->facebook_link?>"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="<?=$model->telegram_link?>"><i class="ti-youtube"></i></a></li>
-                                        <?php endforeach;?>
-                                    <?php endif; ?>
+                    <div class="col-sm-4">
+                        <div class="widget clearfix">
+                            <h5>The Company</h5>
+                            <div class="menu-footer-1-container">
+                                <ul class="menu">
+                                    <li><a href="#">Who We Are</a>
+                                    </li>
+                                    <li><a href="#">Services</a>
+                                    </li>
+                                    <li><a href="#">Careers</a>
+                                    </li>
+                                    <li><a href="#">Culture</a>
+                                    </li>
+                                    <li><a href="#">Contact</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- quick links -->
-                <div class="col-md-3 offset-md-1 widget-area">
-                    <div class="widget clearfix usful-links">
-                        <h3 class="widget-title"><?=Yii::t("app", "menulinks")?></h3>
-                        <ul>
-                            <?php if (!empty($links)) :?>
-                                <?php foreach ($links as $link): ?>
-                                    <li><a href="<?=$links->link?>"><?=$link['name_'.Yii::$app->language];?></a></li>
-                                <?php endforeach; ?>
-                            <?php endif; ?>
-                        </ul>
+                    <div class="col-sm-4">
+                        <div class="widget clearfix">
+                            <h5>Recent Posts</h5>
+                            <ul>
+                                <li><a href="#">Minimum Viable DevOps</a>
+                                </li>
+                                <li><a href="#">How to Get What You Want</a>
+                                </li>
+                                <li><a href="#">Answering Everything</a>
+                                </li>
+                                <li><a href="#">Startup Rules</a>
+                                </li>
+                                <li><a href="#">Email Can Wait</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <!-- subscribe -->
-                <div class="col-md-4 widget-area">
-                    <div class="widget clearfix">
-                        <h3 class="widget-title"><?=Yii::t("app", "subscribe")?></h3>
-                        <p><?=Yii::t("app", "subsinfo")?></p>
-                        <div class="widget-newsletter">
-                            <form action="#">
-                                <input type="email" placeholder="<?=Yii::t("app", "email")?>" required>
-                                <button type="submit"><?=Yii::t("app", "send")?></button>
-                            </form>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="widget clearfix">
+                            <h5>Get Our Newsletter</h5>
+                            <div class="footer-newsletter">
+                                <p class="serif">Sign Up to get the latest updates.</p>
+                                <form class="newsletter-form" data-mailchimp="true" data-url="http://hody.us12.list-manage.com/subscribe/post?u=d9d1052c1b2ba81576842a9fb&amp;id=c70c5d0c82">
+                                    <div class="input-group">
+                                        <input class="form-control" type="email" name="EMAIL" placeholder="Email"><span class="input-group-btn"><button class="btn newsletter-btn" type="submit">Subscribe</button></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="widget clearfix">
+                            <h5>Follow Us</h5>
+                            <ul class="social-list">
+                                <li class="social-item-facebook"><a target="_blank" href="#"><i class="hc-facebook"></i></a>
+                                </li>
+                                <li class="social-item-twitter"><a target="_blank" href="#"><i class="hc-twitter"></i></a>
+                                </li>
+                                <li class="social-item-instagram"><a target="_blank" href="#"><i class="hc-instagram"></i></a>
+                                </li>
+                                <li class="social-item-dribbble"><a target="_blank" href="#"><i class="hc-dribbble"></i></a>
+                                </li>
+                                <li class="social-item-youtube"><a target="_blank" href="#"><i class="hc-youtube"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Bottom footer -->
-        <div class="bottom-footer-text">
-            <div class="row copyright">
-                <div class="col-md-12">
-                    <p class="mb-0">©2022 <a href="#">WEBSPACE</a>. All rights reserved.</p>
-                </div>
-            </div>
+    </div>
+</footer>
+<footer id="footer">
+    <div class="container">
+        <div class="copy-text">
+            <p>© 2016 Dylan. All rights reserved.</p>
         </div>
     </div>
 </footer>
