@@ -34,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'attribute'=>'comment',
                 'value'=> function ($model) {
-                    return $model->getTitle();
+                    return $model->getComment();
                 },
                 'filter'=>$comment,
             ],

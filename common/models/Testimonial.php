@@ -32,7 +32,7 @@ class Testimonial extends \yii\db\ActiveRecord
     {
         return [
             [['name', 'email', 'comment', ], 'required'],
-            [['comment'], 'string'],
+            [['comment', 'images',], 'string'],
             [['status'], 'integer'],
             [['name', 'email', ], 'string', 'max' => 255],
             [['translate_comment'], 'safe']
@@ -53,9 +53,9 @@ class Testimonial extends \yii\db\ActiveRecord
             'status' => 'Status',
         ];
     }
-    public function getTitle($language=null)
+    public function getComment($language=null)
     {
-        $title = json_decode($this->comment,true);
+        $comment = json_decode($this->comment,true);
 
         if ($language) {
             if (isset($comment[$language])) {

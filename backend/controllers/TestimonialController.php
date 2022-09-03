@@ -57,6 +57,7 @@ class TestimonialController extends Controller
             }
 
             if ($model->load($this->request->post())) {
+                $model->comment = json_encode($model->translate_comment,JSON_UNESCAPED_UNICODE);
                 if ($model->save()) {
 
                     $model->images = UploadedFile::getInstance($model,'images');
@@ -64,7 +65,7 @@ class TestimonialController extends Controller
 
                     $model->save();
 
-                    return $this->redirect(['index', 'id' => $model->id]);
+                    return $this->redirect(['index']);
                 }else{
                     print_r($model->errors);die;
                 }
@@ -91,11 +92,6 @@ class TestimonialController extends Controller
         $oldImage = $model->images;
 
         if ($this->request->isPost && $model->load($this->request->post())) {
-//            if (!empty(!$model->status)){
-//                $model->status = 1;
-//            }else{
-//                $model->status = 0;
-//            }
 
             $model->images = UploadedFile::getInstance($model,'images');
 
